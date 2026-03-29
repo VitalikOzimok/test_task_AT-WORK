@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+
+  --white: #fdfdfd;
+  --gray: #f4f4f4;
+  --silver: #dadada;
+  --gray-400: #9c9c9c;
+  --gray-500: #595959;
+  --bg-dark: #161616;
+  --accent: #22a0bc;
+
+  /* ===== ТИПОГРАФИКА DESKTOP ===== */
+  --title: 24px;
+  --headline: 20px;
+  --text1-semibold: 18px;
+  --text1-medium: 18px;
+  --text2-semibold: 16px;
+  --text2-medium: 16px;
+  --caption: 14px;
+
+  /* ===== ТИПОГРАФИКА MOBILE ===== */
+  --mobile-title: 24px;
+  --mobile-headline: 18px;
+  --mobile-text1-semibold: 16px;
+  --mobile-text1-medium: 16px;
+  --mobile-text2-semibold: 14px;
+  --mobile-caption: 10px;
+}
+body {
+  background-color: var(--gray);
+}

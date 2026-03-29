@@ -1,0 +1,34 @@
+@mixin listStyles {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+@mixin gridStyles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  row-gap: 32px;
+
+  @media (max-width: 376px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+}
+
+.userList {
+  @include listStyles;
+
+  .grid {
+    @include gridStyles;
+  }
+}
+
+.archiveList {
+  @include listStyles;
+
+  .grid {
+    @include gridStyles;
+    filter: grayscale(100%);
+  }
+}

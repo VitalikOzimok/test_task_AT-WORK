@@ -1,0 +1,46 @@
+.dropdownMenu {
+  width: 200px;
+  background-color: var(--white);
+  padding: 8px;
+  border-radius: 12px;
+  box-shadow: 0 0 1px 0 #5a5a5a;
+  position: absolute;
+  top: 55px;
+  right: 20px;
+  z-index: 100;
+  background-color: white;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.menuItem {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: var(--text2-semibold);
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--dark);
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  background-color: white;
+  &:hover {
+    color: var(--accent);
+  }
+}
+.dropdownTrigger {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

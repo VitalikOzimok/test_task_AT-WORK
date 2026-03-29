@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  font-family: var(--font-manrope);
+  color: var(--dark);
+  font-weight: 600;
+
+  @media (max-width: 375px) {
+    font-size: var(--mobile-text2-semibold);
+  }
+}
+
+.line {
+  border-bottom: 1px solid var(--silver);
+  margin-bottom: 26px;
+}

@@ -1,0 +1,66 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  width: 310px;
+  height: 211px;
+
+  @media (max-width: 376px) {
+    width: 271px;
+    height: 189px;
+  }
+}
+
+.modalClose {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.modalBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.successMessage {
+  font-size: var(--headline);
+  font-family: var(--font-manrope);
+  font-weight: 600;
+  margin: 0;
+  color: var(--gray-500);
+
+  @media (max-width: 376px) {
+    font-size: calc(var(--headline) -2px);
+  }
+}
