@@ -1,4 +1,4 @@
-import styles from "./Loader.module.scss";
+import styles from "./loader.module.scss";
 export function Loader() {
   return (
     <div className={styles.loaderContainer}>

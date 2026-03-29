@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./TextField.module.scss";
+import styles from "./textField.module.scss";
 import Close from "./../../../assets/icons/Close.svg";
 
 interface TextFieldProps {
