@@ -1,5 +1,4 @@
-// Card.tsx
-import styles from "./Card.module.scss";
+import styles from "./card.module.scss";
 import { images } from "./../../../assets/icons/index";
 import { DropdownMenu } from "../../../components/ui/dropdownMenu/dropdownMenu";
 import { useCardStore } from "../../../store/cardStore";
