@@ -1,5 +1,5 @@
 import { Card } from "../../page/userList/card/card";
-import styles from "./UserList.module.scss";
+import styles from "./userList.module.scss";
 import { Loader } from "../../components/ui/loader/loader";
 import { useCardStore } from "../../store/cardStore";
 import { useCardsQuery } from "../../hook/useCardsQuery";
