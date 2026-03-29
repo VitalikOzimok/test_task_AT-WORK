@@ -1,5 +1,5 @@
 import { images } from "../../assets/icons/index";
-import styles from "./NavBar.module.scss";
+import styles from "./navbar.module.scss";
 
 export function NavBar() {
   return (

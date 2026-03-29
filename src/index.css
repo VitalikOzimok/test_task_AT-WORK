@@ -16,7 +16,6 @@
   --bg-dark: #161616;
   --accent: #22a0bc;
 
-  /* ===== ТИПОГРАФИКА DESKTOP ===== */
   --title: 24px;
   --headline: 20px;
   --text1-semibold: 18px;
@@ -25,7 +24,6 @@
   --text2-medium: 16px;
   --caption: 14px;
 
-  /* ===== ТИПОГРАФИКА MOBILE ===== */
   --mobile-title: 24px;
   --mobile-headline: 18px;
   --mobile-text1-semibold: 16px;

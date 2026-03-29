@@ -19,6 +19,10 @@
   font-family: var(--font-manrope);
   font-size: var(--headline);
   color: var(--gray-500);
+
+  @media (max-width: 376px) {
+    padding: 0 20px;
+  }
 }
 
 .twoColumnLayout {
@@ -26,13 +30,17 @@
   gap: 40px;
   flex: 1;
   width: 100%;
+
+  @media (max-width: 376px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
-// Левая колонка
 .leftColumn {
-  flex-shrink: 0; // Запрещаем сжатие
+  flex-shrink: 0;
   width: 360px;
-  height: fit-content; // Высота по контенту
+  height: fit-content;
 }
 
 .userInfo {
@@ -68,15 +76,8 @@
 
 .selected {
   color: var(--bg-dark);
-
-  // Стили для активного пункта меню
-  :global(.header) {
-    color: var(--bg-dark);
-    font-weight: 600;
-  }
 }
 
-// Правая колонка
 .rightColumn {
   flex: 1;
   min-width: 0;
@@ -94,6 +95,10 @@
 
 .buttonContainer {
   margin-top: 28px;
+
+  @media (max-width: 376px) {
+    width: 100%;
+  }
 }
 
 .saveButton {

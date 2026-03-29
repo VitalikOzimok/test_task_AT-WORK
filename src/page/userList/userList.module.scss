@@ -12,6 +12,7 @@
   @media (max-width: 376px) {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    column-gap: 0px;
     justify-items: center;
   }
 }
